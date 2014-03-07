@@ -36,6 +36,8 @@ GEM
       erubis (>= 2.6.6)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.1.1.0)
+      sass (~> 3.2)
     brakeman (2.4.1)
       erubis (~> 2.6)
       fastercsv (~> 1.5)
@@ -72,6 +74,13 @@ GEM
     erubis (2.7.0)
     execjs (2.0.2)
     fastercsv (1.5.5)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
+    font-awesome-rails (4.0.3.1)
+      railties (>= 3.2, < 5.0)
+    foreigner (1.6.1)
+      activerecord (>= 3.0.0)
     haml (4.0.5)
       tilt
     highline (1.6.21)
@@ -95,6 +104,7 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.9.0)
+    pg (0.17.1)
     polyglot (0.3.4)
     rack (1.5.2)
     rack-contrib (1.1.0)
@@ -192,14 +202,21 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
+  awesome_print
   better_errors
   binding_of_caller
+  bootstrap-sass
   brakeman
   coffee-rails (~> 4.0.0)
   debugger
+  figaro
+  font-awesome-rails
+  foreigner
+  haml
   jbuilder (~> 1.2)
   jquery-rails
   meta_request
+  pg
   rails (= 4.0.3)
   rails_best_practices
   rspec-rails
