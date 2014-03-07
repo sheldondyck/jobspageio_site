@@ -1,4 +1,4 @@
-JobsPageApp::Application.routes.draw do
+JobsPageSite::Application.routes.draw do
   get 'pages/index',   :to   => 'pages#index'
 
   root 'pages#index'

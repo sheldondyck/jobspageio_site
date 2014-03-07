@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-JobsPageApp::Application.load_tasks
+JobsPageSite::Application.load_tasks
