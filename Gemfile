@@ -20,7 +20,6 @@ gem 'font-awesome-rails'
 
 group :development do
   gem 'therubyracer', platforms: :ruby
-  gem 'rspec-rails'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'

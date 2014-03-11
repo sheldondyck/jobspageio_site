@@ -1,5 +1,6 @@
 JobsPageSite::Application.routes.draw do
   get 'pages/index',   :to   => 'pages#index'
+  get 'pages/site',   :to   => 'pages#site'
 
   root 'pages#index'
   # The priority is based upon order of creation: first created -> highest priority.
