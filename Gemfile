@@ -8,6 +8,7 @@ gem 'rails', '4.0.3'
 gem 'pg'
 gem 'haml-rails'
 gem 'rdiscount' # used for :markdown in haml
+gem 'sass', '3.2.13'
 gem 'sass-rails', '~> 4.0.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
