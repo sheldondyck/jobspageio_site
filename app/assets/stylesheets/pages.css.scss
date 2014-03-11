@@ -1,3 +1,164 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar {
+  border-radius: 0px;
+}
+
+.hero {
+  position: relative;
+  padding: $section_padding;
+  height: 400px;
+}
+
+.summary {
+  position: relative;
+  padding: $section_padding;
+  background: rgba(222,222,222,1.0);
+  height: 400px;
+}
+
+.pricing {
+  position: relative;
+  padding: $section_padding;
+  background: rgba(200,200,200,1.0);
+
+  ul.pricing-table {
+    float: left;
+    display: block;
+    width: 30%;
+    border: 1px solid rgb(221, 221, 221);
+    margin: 10px;
+    padding: 0px;
+    list-style: none;
+    list-style-position: outside;
+
+    li.title {
+      padding: 5px 10px;
+      background-color: #444;
+      color: rgb(238, 238, 238);
+      text-align: center;
+      padding: 10px;
+      font-size: 24px;
+      font-weight: normal;
+    }
+
+    li.price {
+      padding: 5px 10px;
+      background-color: #aaa;
+      color: rgb(51, 51, 51);
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    li.description {
+      padding: 5px 10px;
+      background-color: #eee;
+      color: rgb(51, 51, 51);
+      text-align: center;
+      font-size: 10px;
+      font-weight: normal;
+    }
+
+    li.bullet-item {
+      padding: 5px 10px;
+      background-color: #fff;
+      color: rgb(51, 51, 51);
+      text-align: center;
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+    li.button {
+      padding: 10px 10px;
+      background-color: #bbb;
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      font-weight: normal;
+    }
+
+    li.price.monthly {
+      display: none;
+    }
+
+    li.price.yearly {
+      display: block;
+    }
+
+    .yearly-details {
+      font-size: 8pt;
+      padding: 5px 0;
+    }
+  }
+}
+
+.footer {
+  position: relative;
+  padding: $section_padding;
+  background: rgba(0,100,150,0.85);
+}
+
+.jpio-colour-bar {
+  height: 8px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+
+  div {
+    height: 8px;
+    width: 8.33333%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    color: #0f0;
+  }
+}
+
+.jpio-cb-yellow {
+  background: none repeat scroll 0% 0% rgb(242,234,0);
+}
+
+.jpio-cb-amber {
+  background: none repeat scroll 0% 0% rgb(235,206,19);
+}
+
+.jpio-cb-orange {
+  background: none repeat scroll 0% 0% rgb(240,170,20);
+}
+
+.jpio-cb-sunset {
+  background: none repeat scroll 0% 0% rgb(240,134,48);
+}
+
+.jpio-cb-red {
+  background: none repeat scroll 0% 0% rgb(240,122,96);
+}
+
+.jpio-cb-fuchsia {
+  background: none repeat scroll 0% 0% rgb(238,128,240);
+}
+
+.jpio-cb-purple {
+  background: none repeat scroll 0% 0% rgb(189,144,240);
+}
+
+.jpio-cb-indigo {
+  background: none repeat scroll 0% 0% rgb(144,146,240);
+}
+
+.jpio-cb-blue {
+  background: none repeat scroll 0% 0% rgb(127,186,220);
+}
+
+.jpio-cb-aqua {
+  background: none repeat scroll 0% 0% rgb(144,240,227);
+}
+
+.jpio-cb-green {
+  background: none repeat scroll 0% 0% rgb(145,210,113);
+}
+
+.jpio-cb-lime {
+  background: none repeat scroll 0% 0% rgb(197,240,96);
+}
+

@@ -1,1 +1,115 @@
-%h1 JobsPage.io
+=render 'layouts/site_menu'
+.hero
+  .container
+    .row
+      .col-lg-12
+        %h1 Introducing JobsPage.io
+        %h2 The easiest way to add a jobs page to you web site
+        %h3 Try it for free and start the search you next great employee
+
+.summary
+  .container
+    .row
+      .col-lg-12
+        %h2 The easiest way to add a jobs page to you web site
+
+.pricing
+  .container
+    .row
+      .col-lg-12
+        %h2 Pricing that scales as you grow
+        %h3 No Minimum Contracts, No Sign-up Fees, No Cancellation Fees
+    .row
+      .col-lg-12
+        %ul.pricing-table
+          %li.title StartUp
+          %li.price.monthly
+            $&nbsp;12.95/month
+          %li.price.yearly
+            $&nbsp;9.95/month
+            .yearly-details
+              One payment of $&nbsp;119,40
+          %li.description Single User
+          %li.bullet-item Unlimited Clients
+          %li.bullet-item Unlimited Appointments
+          %li.bullet-item Single Employee
+          %li.bullet-item Simple Reports
+          %li.bullet-item No Detailed Reports
+          %li.bullet-item No Billing
+          %li.bullet-item No Auto Reminders by Email
+          %li.bullet-item No Auto Reminders by SMS
+          %li.bullet-item Web Only
+          %li.button
+            =link_to 'Join Now!', '#', class: 'btn btn-primary'
+        %ul.pricing-table
+          %li.title Small Office
+          %li.price.monthly
+            $&nbsp;33.95/month
+          %li.price.yearly
+            $&nbsp;29.95/month
+            .yearly-details
+              One payment of $&nbsp;359,40
+          %li.description Single User
+          %li.bullet-item Unlimited Clients
+          %li.bullet-item Unlimited Appointments
+          %li.bullet-item Single Employee
+          %li.bullet-item Simple Reports
+          %li.bullet-item Detailed Reports
+          %li.bullet-item Billing
+          %li.bullet-item Auto Reminders by Email
+          %li.bullet-item No Auto Reminders by SMS
+          %li.bullet-item Web/Mobile
+          %li.button
+            =link_to 'Join Now!', '#', class: 'btn btn-primary'
+        %ul.pricing-table
+          %li.title Enterprise
+          %li.price.monthly
+            $&nbsp;85.95/month
+          %li.price.yearly
+            $&nbsp;79.95/month
+            .yearly-details
+              One payment of $&nbsp;959,40
+          %li.description Multi User
+          %li.bullet-item Unlimited Clients
+          %li.bullet-item Unlimited Appointments
+          %li.bullet-item 10 Employees
+          %li.bullet-item Simple Reports
+          %li.bullet-item Detailed Reports
+          %li.bullet-item Billing
+          %li.bullet-item Auto Reminders by Email
+          %li.bullet-item Auto Reminders by SMS
+          %li.bullet-item Web/Mobile
+          %li.button
+            =link_to 'Join Now!', '#', class: 'btn btn-primary'
+
+.footer
+  .container
+    .row
+      .col-sm-6
+        %h5
+          =app_name
+        %p The easiest way to add a jobs page to you web site
+        -# Company Press Blog
+      .col-sm-6
+        %h5 Contact Us
+        %p
+          %span.fa.fa-stack
+            %i.fa.fa-circle.fa-stack-2x
+            %i.fa.fa-twitter.fa-stack-1x.fa-inverse
+          twitter
+        %p
+          %span.fa.fa-stack
+            %i.fa.fa-circle.fa-stack-2x
+            %i.fa.fa-facebook.fa-stack-1x.fa-inverse
+          facebook
+        %p
+          %span.fa.fa-stack
+            %i.fa.fa-circle.fa-stack-2x
+            %i.fa.fa-google-plus.fa-stack-1x.fa-inverse
+          google+
+        %p
+          %span.fa.fa-stack
+            %i.fa.fa-circle.fa-stack-2x
+            %i.fa.fa-envelope-o.fa-stack-1x.fa-inverse
+          email
+

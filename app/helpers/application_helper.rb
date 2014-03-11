@@ -3,11 +3,25 @@ module ApplicationHelper
     'JobsPage.io'
   end
 
+  def www_url
+    if Rails.env == 'development' or Rails.env == 'test'
+      'http://127.0.0.1:3000'
+    else
+      'http://www.jobspage.io'
+    end
+  end
+
   def title
     if @title.nil?
       app_name
     else
       app_name + ' | ' + @title
+    end
+  end
+
+  def active(cntrl_name)
+    if cntrl_name == controller.controller_name + '#' + controller.action_name then
+      return 'active'
     end
   end
 end
