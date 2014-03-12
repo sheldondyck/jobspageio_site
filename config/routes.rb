@@ -1,4 +1,4 @@
-JobsPageSite::Application.routes.draw do
+JobsPageioSite::Application.routes.draw do
   get 'site',           :to   => 'pages#site'
 
   if Rails.env == 'development'
