@@ -1,22 +1,21 @@
 %header
-  .jpio-colour-bar
-    .jpio-cb-yellow
-    .jpio-cb-amber
-    .jpio-cb-orange
-    .jpio-cb-sunset
-    .jpio-cb-red
-    .jpio-cb-fuchsia
-    .jpio-cb-purple
-    .jpio-cb-indigo
-    .jpio-cb-blue
-    .jpio-cb-aqua
-    .jpio-cb-green
-    .jpio-cb-lime
-
-  .navbar.navbar-default(role='navigation')
+  .navbar.navbar-default.navbar-fixed-top(role='navigation')
+    .colour-bars
+      .colour-bar-yellow
+      .colour-bar-amber
+      .colour-bar-orange
+      .colour-bar-sunset
+      .colour-bar-red
+      .colour-bar-fuchsia
+      .colour-bar-purple
+      .colour-bar-indigo
+      .colour-bar-blue
+      .colour-bar-aqua
+      .colour-bar-green
+      .colour-bar-lime
     .container
       .navbar-header
-        =link_to app_name, www_url, {class:'navbar-brand'}
+        =link_to icon_tag('briefcase') + app_name, www_url, {class: 'navbar-brand'}
       %ul.nav.navbar-nav.navbar-right
         %li{:class => active('site#features'), id: 'features_link'}
           =link_to 'Features', '#features', class: 'scroll'
@@ -24,9 +23,10 @@
           =link_to 'Pricing', '#pricing', class: 'scroll'
         %li{:class => active('site#blog'), id: 'blog_link'}
           =link_to 'Blog', '#'
-        -#%li
-          %a{href: signup_path, id: 'navbar-signup'}
+        %li
+          %a{href: '#', id: 'navbar-signup'}
             %button.btn.btn-default.navbar-btn Join Now for Free!
-        -#%li
-          %a{href: signin_path, id: 'navbar-signin'}
+        %li
+          %a{href: '#', id: 'navbar-signin'}
             %button.btn.btn-default.navbar-btn Sign In
+  .navbar-spacer

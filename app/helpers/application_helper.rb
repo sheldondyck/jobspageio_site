@@ -11,6 +11,10 @@ module ApplicationHelper
     end
   end
 
+  def icon_tag icon_name
+    raw "<i class='fa fa-#{icon_name} fa-1g brand-icon'></i>"
+  end
+
   def title
     if @title.nil?
       app_name

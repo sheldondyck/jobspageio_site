@@ -1,5 +1,15 @@
-.navbar {
-  border-radius: 0px;
+.brand-icon {
+  padding: 0px 5px;
+}
+
+.navbar-spacer {
+  height: $navbar-height + $colour-bar-height;
+  margin-bottom: $navbar-margin-bottom;
+}
+
+.navbar-btn {
+  margin-top: -$colour-bar-height;
+  margin-bottom: 0px;
 }
 
 .hero {
@@ -94,71 +104,67 @@
 .footer {
   position: relative;
   padding: $section_padding;
-  background: rgba(0,100,150,0.85);
+  background: $jobspageio-green;
 }
 
-.jpio-colour-bar {
-  height: 8px;
-  width: 100%;
-  position: fixed;
-  top: 0px;
+.colour-bars {
+  height: $colour-bar-height;
   z-index: 9999;
 
   div {
-    height: 8px;
+    height: $colour-bar-height;
     width: 8.33333%;
     margin: 0px;
     padding: 0px;
     float: left;
-    color: #0f0;
   }
 }
 
-.jpio-cb-yellow {
-  background: none repeat scroll 0% 0% rgb(242,234,0);
+.colour-bar-yellow {
+  background: none repeat scroll 0% 0% $jobspageio-yellow;
 }
 
-.jpio-cb-amber {
-  background: none repeat scroll 0% 0% rgb(235,206,19);
+.colour-bar-amber {
+  background: none repeat scroll 0% 0% $jobspageio-amber;
 }
 
-.jpio-cb-orange {
-  background: none repeat scroll 0% 0% rgb(240,170,20);
+.colour-bar-orange {
+  background: none repeat scroll 0% 0% $jobspageio-orange;
 }
 
-.jpio-cb-sunset {
-  background: none repeat scroll 0% 0% rgb(240,134,48);
+.colour-bar-sunset {
+  background: none repeat scroll 0% 0% $jobspageio-sunset;
 }
 
-.jpio-cb-red {
-  background: none repeat scroll 0% 0% rgb(240,122,96);
+.colour-bar-red {
+  background: none repeat scroll 0% 0% $jobspageio-red;
 }
 
-.jpio-cb-fuchsia {
-  background: none repeat scroll 0% 0% rgb(238,128,240);
+.colour-bar-fuchsia {
+  background: none repeat scroll 0% 0% $jobspageio-fuchsia;
 }
 
-.jpio-cb-purple {
-  background: none repeat scroll 0% 0% rgb(189,144,240);
+.colour-bar-purple {
+  background: none repeat scroll 0% 0% $jobspageio-purple;
 }
 
-.jpio-cb-indigo {
-  background: none repeat scroll 0% 0% rgb(144,146,240);
+.colour-bar-indigo {
+  background: none repeat scroll 0% 0% $jobspageio-indigo;
 }
 
-.jpio-cb-blue {
-  background: none repeat scroll 0% 0% rgb(127,186,220);
+.colour-bar-blue {
+  background: none repeat scroll 0% 0% $jobspageio-blue;
 }
 
-.jpio-cb-aqua {
-  background: none repeat scroll 0% 0% rgb(144,240,227);
+.colour-bar-aqua {
+  background: none repeat scroll 0% 0% $jobspageio-aqua;
 }
 
-.jpio-cb-green {
-  background: none repeat scroll 0% 0% rgb(145,210,113);
+.colour-bar-green {
+  background: none repeat scroll 0% 0% $jobspageio-green;
 }
 
-.jpio-cb-lime {
-  background: none repeat scroll 0% 0% rgb(197,240,96);
+.colour-bar-lime {
+  background: none repeat scroll 0% 0% $jobspageio-lime;
 }
 
