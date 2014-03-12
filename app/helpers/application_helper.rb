@@ -12,7 +12,7 @@ module ApplicationHelper
   end
 
   def icon_tag icon_name
-    raw "<i class='fa fa-#{icon_name} fa-1g brand-icon'></i>"
+    raw "<i class='fa fa-#{icon_name} fa-lg pull-left'></i>"
   end
 
   def title

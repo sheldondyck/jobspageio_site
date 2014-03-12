@@ -1,6 +1,5 @@
 JobsPageSite::Application.routes.draw do
-  get 'pages/index',    :to   => 'pages#index'
-  get 'pages/site',     :to   => 'pages#site'
+  get 'site',           :to   => 'pages#site'
 
   if Rails.env == 'development'
     match '/signin', to: redirect('http://127.0.0.1:3000/signin'), as: 'signin', via: :get
@@ -10,8 +9,6 @@ JobsPageSite::Application.routes.draw do
     match '/signup', to: redirect('https://app.jobspage.io/signup'), as: 'signup', via: :get
   end
 
-  get '/site', to: 'pages#site'
-  
   root 'pages#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

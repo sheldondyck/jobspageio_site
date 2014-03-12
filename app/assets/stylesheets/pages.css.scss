@@ -1,5 +1,7 @@
-.brand-icon {
-  padding: 0px 5px;
+.centered {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .navbar-spacer {
@@ -18,11 +20,30 @@
   height: 400px;
 }
 
-.summary {
+.features {
   position: relative;
   padding: $section_padding;
-  background: rgba(222,222,222,1.0);
-  height: 400px;
+  background: rgba(240,240,240,1.0);
+
+  .row {
+    margin-bottom: 75px;
+    padding-bottom: 75;
+  }
+}
+
+.feature-icon {
+  font-size: 12em;
+  vertical-align: middle;
+}
+
+.feature-left {
+  float: left;
+  margin-right: 5%;
+}
+
+.feature-right {
+  float: right;
+  margin-left: 5%;
 }
 
 .pricing {
@@ -120,48 +141,96 @@
   }
 }
 
+.jobspageio-yellow {
+  color: $jobspageio-yellow;
+}
+
 .colour-bar-yellow {
   background: none repeat scroll 0% 0% $jobspageio-yellow;
+}
+
+.jobspageio-amber {
+  color: $jobspageio-amber;
 }
 
 .colour-bar-amber {
   background: none repeat scroll 0% 0% $jobspageio-amber;
 }
 
+.jobspageio-orange {
+  color: $jobspageio-orange;
+}
+
 .colour-bar-orange {
   background: none repeat scroll 0% 0% $jobspageio-orange;
+}
+
+.jobspageio-sunset {
+  color: $jobspageio-sunset;
 }
 
 .colour-bar-sunset {
   background: none repeat scroll 0% 0% $jobspageio-sunset;
 }
 
+.jobspageio-red {
+  color: $jobspageio-red;
+}
+
 .colour-bar-red {
   background: none repeat scroll 0% 0% $jobspageio-red;
+}
+
+.jobspageio-fuchsia {
+  color: $jobspageio-fuchsia;
 }
 
 .colour-bar-fuchsia {
   background: none repeat scroll 0% 0% $jobspageio-fuchsia;
 }
 
+.jobspageio-purple {
+  color: $jobspageio-purple;
+}
+
 .colour-bar-purple {
   background: none repeat scroll 0% 0% $jobspageio-purple;
+}
+
+.jobspageio-indigo {
+  color: $jobspageio-indigo;
 }
 
 .colour-bar-indigo {
   background: none repeat scroll 0% 0% $jobspageio-indigo;
 }
 
+.jobspageio-blue {
+  color: $jobspageio-blue;
+}
+
 .colour-bar-blue {
   background: none repeat scroll 0% 0% $jobspageio-blue;
+}
+
+.jobspageio-aqua {
+  color: $jobspageio-aqua;
 }
 
 .colour-bar-aqua {
   background: none repeat scroll 0% 0% $jobspageio-aqua;
 }
 
+.jobspageio-green {
+  color: $jobspageio-green;
+}
+
 .colour-bar-green {
   background: none repeat scroll 0% 0% $jobspageio-green;
+}
+
+.jobspageio-lime {
+  color: $jobspageio-lime;
 }
 
 .colour-bar-lime {
