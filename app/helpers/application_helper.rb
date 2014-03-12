@@ -5,9 +5,17 @@ module ApplicationHelper
 
   def www_url
     if Rails.env == 'development' or Rails.env == 'test'
-      'http://127.0.0.1:3000'
+      'http://127.0.0.1:4000'
     else
       'http://www.jobspage.io'
+    end
+  end
+
+  def app_url
+    if Rails.env == 'development' or Rails.env == 'test'
+      'http://127.0.0.1:3000'
+    else
+      'http://app.jobspage.io'
     end
   end
 

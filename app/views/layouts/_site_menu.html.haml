@@ -24,9 +24,9 @@
         %li{:class => active('site#blog'), id: 'blog_link'}
           =link_to 'Blog', '#'
         %li
-          %a{href: '#', id: 'navbar-signup'}
+          %a{href: signup_path, id: 'navbar-signup'}
             %button.btn.btn-default.navbar-btn.btn-primary Join Now for Free!
         %li
-          %a{href: '#', id: 'navbar-signin'}
+          %a{href: signin_path, id: 'navbar-signin'}
             %button.btn.btn-default.navbar-btn Sign In
   .navbar-spacer
